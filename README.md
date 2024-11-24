@@ -11,6 +11,10 @@
 - **Capacity** => the total number of buckets
 - **Load Factor** => number between 0.75 and 1 designated as threshold to grow our bucket size.*
 
+A **Hash Set** achieves the same objectives, however it stores *only key values*.
+
+## FUNCTIONS
+
 1. `hash(key)` takes a key and produces a hash code with it
 2. `set(key, value)` takes two arguments: the first is a key, and the second is a value that is assigned to this key. If a key already exists, then the old value is overwritten.
 3. `get(key)` takes one argument as a key and returns the value that is assigned to this key. If a key is not found, return null
