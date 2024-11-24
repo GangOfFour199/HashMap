@@ -6,7 +6,7 @@
 
 ## What is a HashMap?
 
-*A **hash map** takes in a key value pair, produces a hash code (a numerical index), and stores the pair in a bucket. As the Hash Map grows, we need to keep track of two factors:
+*A **hash map** takes in a key value pair, produces a hash code (a numerical index), and stores the pair in a bucket. As the Hash Map grows, we need to keep track of two factors:*
 
 - **Capacity** => the total number of buckets
 - **Load Factor** => number between 0.75 and 1 designated as threshold to grow our bucket size.
