@@ -6,7 +6,10 @@
 
 ## What is a HashMap?
 
-*A **hash map** takes in a key value pair, produces a hash code (a numerical index), and stores the pair in a bucket. As the Hash Map grows, we need to keep track of two factors, **Capacity** => the total number of buckets & **Load Factor** => number between 0.75 and 1 designated as threshold to grow our bucket size.*
+*A **hash map** takes in a key value pair, produces a hash code (a numerical index), and stores the pair in a bucket. As the Hash Map grows, we need to keep track of two factors:
+
+- **Capacity** => the total number of buckets
+- **Load Factor** => number between 0.75 and 1 designated as threshold to grow our bucket size.*
 
 1. `hash(key)` takes a key and produces a hash code with it
 2. `set(key, value)` takes two arguments: the first is a key, and the second is a value that is assigned to this key. If a key already exists, then the old value is overwritten.
