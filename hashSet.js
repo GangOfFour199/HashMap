@@ -1,7 +1,5 @@
 // hashSet is same as a hashMap but only with keys, no values
 
-const { set } = require("date-fns");
-
 class hashSet {
   constructor(startingCapacity = 16, targetLoadFactor = 0.75) {
     this.capacity = startingCapacity;
